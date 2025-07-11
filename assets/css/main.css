@@ -926,6 +926,7 @@ input, select, textarea {
 
 		}
 
+
 /* Header */
 
 	#header {
@@ -959,6 +960,34 @@ input, select, textarea {
 					margin-left: 0;
 				}
 
+#footer .contact-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ #footer .contact-list li {
+	margin-bottom: 15px;
+}
+
+#footer .contact-list a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+	transition: color 0.3s ease;
+}
+
+#footer .contact-list a:hover {
+	color: #007BFF; /* You can use your brand color */
+}
+
+#footer .contact-list i {
+	margin-right: 10px;
+	font-size: 20px;
+	color: #007BFF;
+}
 /* Thumbnails */
 
 	#thumbnails {
